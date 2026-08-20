@@ -12,3 +12,8 @@ function resaltarMenuActivo() {
 }
 
 document.addEventListener("DOMContentLoaded", resaltarMenuActivo);
+
+let yaSaludo = false;
+function saludarUnaVez() {
+  if (!yaSaludo) { saludar(); yaSaludo = true; }
+}
