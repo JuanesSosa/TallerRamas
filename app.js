@@ -8,4 +8,7 @@ document.addEventListener("DOMContentLoaded", saludar);
 
 function resaltarMenuActivo() {
   console.log("Resaltando el enlace activo del menu");
+
 }
+
+document.addEventListener("DOMContentLoaded", resaltarMenuActivo);
